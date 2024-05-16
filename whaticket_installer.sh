@@ -192,7 +192,7 @@ DB_NAME=whaticket
 
 JWT_SECRET=
 JWT_REFRESH_SECRET=
-  EOF
+EOF
 
   stop_loading_animation
   echo "File .env created in ~/whaticket/backend/"
