@@ -157,7 +157,7 @@ edit_wbot_ts() {
           args: ["--no-sandbox", "--disable-setuid-sandbox"]
         }
       });
-  EOF
+EOF
 
   mv "$temp_file" "$wbot_file"
 
