@@ -66,7 +66,7 @@ install_nodejs_npm() {
     echo "Error on Node.js instalation."
     stop_loading_animation
     exit 1
-  fi``
+  fi
 
   stop_loading_animation
 }
