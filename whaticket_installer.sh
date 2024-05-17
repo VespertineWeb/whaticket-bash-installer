@@ -74,7 +74,7 @@ install_nodejs_npm() {
 git_clone_whaticket() {
   start_animation_message "Cloning Whaticket repository" "${BLA_growing_dots[@]}"
 
-  local repository_url="https://github.com/canove/whaticket-community"
+  local repository_url="https://github.com/DFN-master/AutoAtende-SAAS"
   local whaticket_dir="$HOME/whaticket"
 
   if [ -d "$whaticket_dir" ]; then
